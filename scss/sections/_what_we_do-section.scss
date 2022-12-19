@@ -1,6 +1,39 @@
 @import '../abstracts/variables';
 @import '../abstracts/mixins';
 
-article{
-    
+article.what__we--do{
+    background-color: $dark-grey-bg;
+    div.container{
+        div.row{
+            div.col-6{
+                h2{
+                    color: $light-text; 
+                    font-family: $heading-font;
+                    font-weight: 400;
+                }
+
+            }
+            div.col-7{
+                p{
+                    color: $light-text;
+                    font-family: $p-font;
+                    line-height: 160%;
+                }
+            }
+            div.card{
+                @include DisplayPosition( $align-items: center);
+                margin: 3rem 0rem;
+                i{
+                   color: $light-text; 
+                }
+                h3{
+                    margin-top: 2rem;
+                    color: $light-text;
+                    font-family: $heading-font;
+                    line-height: 160%;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
 }
