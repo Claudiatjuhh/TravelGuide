@@ -1,0 +1,18 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.hero__section{
+    background: url('https://images01.nicepagecdn.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg') no-repeat;
+    background-size: cover;
+    div.container{
+        @include DisplayPosition( $flex-direction: row,$justify-content: flex-end);
+        height: $section-height;
+    }
+    h1{
+        text-align: end;
+        width: 10rem;
+        @include DisplayPosition($flex-direction: row, $align-items: flex-end);
+        color: $light-text;
+        margin: 3;
+    }
+}

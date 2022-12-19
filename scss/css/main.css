@@ -1,0 +1,444 @@
+html, body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 730px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1330px;
+  }
+}
+
+.row,
+[class^=col-],
+[class*=" col-"],
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+[class^=col-],
+[class*=" col-"],
+.col {
+  position: relative;
+  padding: 0.5rem;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+[class^=col-] .inner,
+[class*=" col-"] .inner,
+.col .inner {
+  padding: 0.5rem;
+  min-height: 2rem;
+}
+[class^=col-].fd-row,
+[class*=" col-"].fd-row,
+.col.fd-row {
+  flex-direction: row;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .col-s-1 {
+    width: 8.3333333333%;
+  }
+  .col-s-2 {
+    width: 16.6666666667%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.3333333333%;
+  }
+  .col-s-5 {
+    width: 41.6666666667%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.3333333333%;
+  }
+  .col-s-8 {
+    width: 66.6666666667%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.3333333333%;
+  }
+  .col-s-11 {
+    width: 91.6666666667%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-m-1 {
+    width: 8.3333333333%;
+  }
+  .col-m-2 {
+    width: 16.6666666667%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.3333333333%;
+  }
+  .col-m-5 {
+    width: 41.6666666667%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.3333333333%;
+  }
+  .col-m-8 {
+    width: 66.6666666667%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.3333333333%;
+  }
+  .col-m-11 {
+    width: 91.6666666667%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .col-l-1 {
+    width: 8.3333333333%;
+  }
+  .col-l-2 {
+    width: 16.6666666667%;
+  }
+  .col-l-3 {
+    width: 25%;
+  }
+  .col-l-4 {
+    width: 33.3333333333%;
+  }
+  .col-l-5 {
+    width: 41.6666666667%;
+  }
+  .col-l-6 {
+    width: 50%;
+  }
+  .col-l-7 {
+    width: 58.3333333333%;
+  }
+  .col-l-8 {
+    width: 66.6666666667%;
+  }
+  .col-l-9 {
+    width: 75%;
+  }
+  .col-l-10 {
+    width: 83.3333333333%;
+  }
+  .col-l-11 {
+    width: 91.6666666667%;
+  }
+  .col-l-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.3333333333%;
+  }
+  .col-xl-2 {
+    width: 16.6666666667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.3333333333%;
+  }
+  .col-xl-5 {
+    width: 41.6666666667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.3333333333%;
+  }
+  .col-xl-8 {
+    width: 66.6666666667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.3333333333%;
+  }
+  .col-xl-11 {
+    width: 91.6666666667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .col-xxl-1 {
+    width: 8.3333333333%;
+  }
+  .col-xxl-2 {
+    width: 16.6666666667%;
+  }
+  .col-xxl-3 {
+    width: 25%;
+  }
+  .col-xxl-4 {
+    width: 33.3333333333%;
+  }
+  .col-xxl-5 {
+    width: 41.6666666667%;
+  }
+  .col-xxl-6 {
+    width: 50%;
+  }
+  .col-xxl-7 {
+    width: 58.3333333333%;
+  }
+  .col-xxl-8 {
+    width: 66.6666666667%;
+  }
+  .col-xxl-9 {
+    width: 75%;
+  }
+  .col-xxl-10 {
+    width: 83.3333333333%;
+  }
+  .col-xxl-11 {
+    width: 91.6666666667%;
+  }
+  .col-xxl-12 {
+    width: 100%;
+  }
+}
+html {
+  font-size: 18px;
+}
+@media (min-width: 576px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1400px) {
+  html {
+    font-size: 23px;
+  }
+}
+
+body {
+  font-family: "DM Sans", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+.hero__section {
+  background: url("https://images01.nicepagecdn.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg") no-repeat;
+  background-size: cover;
+}
+.hero__section div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: normal;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+  height: 32rem;
+}
+.hero__section h1 {
+  text-align: end;
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: flex-end;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+  color: #ffffff;
+  margin: 3;
+}
+
+.about__us {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: normal;
+  justify-content: normal;
+  align-items: center;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+  height: 32rem;
+  width: 100%;
+}
+.about__us div.row div.col-6 {
+  display: flex;
+  flex-direction: normal;
+  justify-content: normal;
+  align-items: center;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+}
+.about__us div.row div.col-6 h2 {
+  width: 17rem;
+  text-align: start;
+  color: #000000;
+  margin: 1rem;
+}
+.about__us div.row div.col-6 p {
+  line-height: 1rem;
+  width: 17rem;
+  color: #000000;
+}
+.about__us div.row div.col-6 img {
+  width: 23rem;
+  height: 20rem;
+}

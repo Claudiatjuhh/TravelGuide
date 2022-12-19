@@ -1,0 +1,29 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.about__us{
+    background-color: $off-white-bg;
+    @include DisplayPosition( $align-items: center);
+    height: $section-height;
+    width: $section-width;
+    div.row{
+        div.col-6{
+            @include DisplayPosition( $align-items: center);
+            h2{
+                width: 17rem;
+                text-align: start;
+                color: $dark-text;
+                margin: 1rem;
+            }
+            p{
+                line-height: 1rem;
+                width: 17rem;
+                color: $dark-text;
+            }
+            img{
+                width: 23rem;
+                height: 20rem;
+            }
+        }
+    }
+}
