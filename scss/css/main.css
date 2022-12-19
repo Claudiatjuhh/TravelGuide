@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
 html, body {
   height: 100vh;
   padding: 0;
@@ -404,6 +407,8 @@ h6 {
   flex-wrap: normal;
   color: #ffffff;
   margin: 3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .about__us {
@@ -428,14 +433,17 @@ h6 {
   flex-wrap: normal;
 }
 .about__us div.row div.col-6 h2 {
-  width: 17rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 24rem;
   text-align: start;
   color: #000000;
   margin: 1rem;
 }
 .about__us div.row div.col-6 p {
-  line-height: 1rem;
-  width: 17rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  width: 24rem;
   color: #000000;
 }
 .about__us div.row div.col-6 img {

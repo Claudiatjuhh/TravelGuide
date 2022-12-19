@@ -10,14 +10,17 @@
         div.col-6{
             @include DisplayPosition( $align-items: center);
             h2{
-                width: 17rem;
+                font-family: $heading-font;
+                font-weight: 400;
+                width: 24rem;
                 text-align: start;
                 color: $dark-text;
                 margin: 1rem;
             }
             p{
-                line-height: 1rem;
-                width: 17rem;
+                font-family: $p-font;
+                line-height: 160%;
+                width: 24rem;
                 color: $dark-text;
             }
             img{

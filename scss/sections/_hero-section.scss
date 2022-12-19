@@ -14,5 +14,7 @@
         @include DisplayPosition($flex-direction: row, $align-items: flex-end);
         color: $light-text;
         margin: 3;
+        font-family: $heading-font;
+        font-weight:700;
     }
 }

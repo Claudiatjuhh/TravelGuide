@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
 //Colors
 //Background colors
 $dusty-red-bg:#6b4748;
@@ -9,8 +11,8 @@ $light-text:#ffffff;
 $dark-text: #000000;
 
 //Fonts
-// $heading-font:;
-// $font:;
+$heading-font: 'Roboto', sans-serif;
+$p-font:'Open Sans', sans-serif;
 
 //Stadard heights and widths
 $section-height: 32rem;
