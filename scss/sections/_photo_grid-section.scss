@@ -1,0 +1,32 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+section.photo__grid{
+    margin: 3rem 0rem;
+    height: $section-height;
+    width: $section-width;
+    div.container {
+        @include DisplayPosition( $flex-direction: column, $justify-content: center);
+        div.row{
+            div.col-4{
+                img.photo__grid--img{
+                    width: 100%;
+                    height: 100%;
+                }
+                div.text{
+                    @include DisplayPosition( $flex-direction: column, $justify-content: center, $align-items: center);
+                    background-color: $off-white-bg;
+                    width: 100%;
+                    height: 100%;
+
+                    h3.photo__grid--text{
+                        font-size: 32px;
+                        font-family: $heading-font;
+                        font-weight: 400;
+                        color: $dark-text;  
+                    }
+                }
+            }
+        }
+    }
+}
