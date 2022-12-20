@@ -1,0 +1,34 @@
+@import '../components/buttons';
+
+section.what__you--want{
+    margin: 3rem 0rem;
+    background-color: $dusty-red-bg;
+    div.container{
+
+        div.row{
+            padding: 4rem 0rem;
+            div.col-4{
+                h2{
+                    font-family: $heading-font;
+                    font-weight: 400;
+                    text-align: start;
+                    color: $light-text;
+                    text-align: start;
+                    margin: 0;
+                }
+            }
+            div.col-8{
+                p{
+                    font-family: $p-font;
+                    line-height: 160%;
+                    color: $light-text;
+                }
+                div.col-3{
+                    button{
+                        @include buttonStyling();
+                    }
+                }
+            }
+        }
+    }
+}

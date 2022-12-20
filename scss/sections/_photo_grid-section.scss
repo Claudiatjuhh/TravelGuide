@@ -2,9 +2,7 @@
 @import '../abstracts/mixins';
 
 section.photo__grid{
-    margin: 3rem 0rem;
-    height: $section-height;
-    width: $section-width;
+    margin: 3rem 0rem;  
     div.container {
         @include DisplayPosition( $flex-direction: column, $justify-content: center);
         div.row{

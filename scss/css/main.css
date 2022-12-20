@@ -395,7 +395,7 @@ h6 {
   align-content: normal;
   align-self: normal;
   flex-wrap: normal;
-  height: 32rem;
+  height: 35rem;
 }
 .hero__section h1 {
   font-size: 84px;
@@ -423,8 +423,9 @@ h6 {
   align-content: normal;
   align-self: normal;
   flex-wrap: normal;
-  height: 32rem;
-  width: 100%;
+}
+.about__us div.row {
+  margin: 3rem 0rem;
 }
 .about__us div.row div.col-6 {
   display: flex;
@@ -475,7 +476,7 @@ article.what__we--do div.container div.row div.card {
   align-content: normal;
   align-self: normal;
   flex-wrap: normal;
-  margin: 3rem 0rem;
+  margin: 2rem 0rem;
 }
 article.what__we--do div.container div.row div.card i {
   color: #ffffff;
@@ -490,8 +491,6 @@ article.what__we--do div.container div.row div.card h3 {
 
 section.photo__grid {
   margin: 3rem 0rem;
-  height: 32rem;
-  width: 100%;
 }
 section.photo__grid div.container {
   display: flex;
@@ -523,4 +522,38 @@ section.photo__grid div.container div.row div.col-4 div.text h3.photo__grid--tex
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #000000;
+}
+
+section.what__you--want {
+  margin: 3rem 0rem;
+  background-color: #6b4748;
+}
+section.what__you--want div.container div.row {
+  padding: 4rem 0rem;
+}
+section.what__you--want div.container div.row div.col-4 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: start;
+  color: #ffffff;
+  text-align: start;
+  margin: 0;
+}
+section.what__you--want div.container div.row div.col-8 p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #ffffff;
+}
+section.what__you--want div.container div.row div.col-8 div.col-3 button {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 7rem;
+}
+section.what__you--want div.container div.row div.col-8 div.col-3 button a {
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }

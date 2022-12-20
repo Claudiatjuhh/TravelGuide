@@ -22,7 +22,7 @@ article.what__we--do{
             }
             div.card{
                 @include DisplayPosition( $align-items: center);
-                margin: 3rem 0rem;
+                margin: 2rem 0rem;
                 i{
                    color: $light-text; 
                 }

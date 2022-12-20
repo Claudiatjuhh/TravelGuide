@@ -4,9 +4,8 @@
 .about__us{
     background-color: $off-white-bg;
     @include DisplayPosition( $align-items: center);
-    height: $section-height;
-    width: $section-width;
     div.row{
+        margin: 3rem 0rem;
         div.col-6{
             @include DisplayPosition( $align-items: center);
             h2{

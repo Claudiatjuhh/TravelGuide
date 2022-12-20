@@ -1,0 +1,13 @@
+@mixin buttonStyling($bg-color: #ffffff, $text-color: #000000,){
+    background-color: $bg-color;
+    border: none;
+    padding: .5rem 1rem;
+    width: 7rem;
+    a{
+        text-decoration: none;
+        color: $dark-text;
+        letter-spacing: 1px;
+        font-family: $heading-font;
+        font-weight: 700;
+    }
+}
