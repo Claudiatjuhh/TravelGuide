@@ -9,6 +9,7 @@
         height: $section-height;
     }
     h1{
+        font-size: 84px;
         text-align: end;
         width: 10rem;
         @include DisplayPosition($flex-direction: row, $align-items: flex-end);

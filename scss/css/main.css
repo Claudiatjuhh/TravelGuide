@@ -398,6 +398,7 @@ h6 {
   height: 32rem;
 }
 .hero__section h1 {
+  font-size: 84px;
   text-align: end;
   width: 10rem;
   display: flex;
