@@ -3,6 +3,9 @@
 
 .hero__section{
     background: url('https://images01.nicepagecdn.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg') no-repeat;
+    clip-path: polygon(0 0, 37% 0, 77% 100%, 0 100%);
+
+    background-color: $dark-grey-bg;
     background-size: cover;
     div.container{
         @include DisplayPosition( $flex-direction: row,$justify-content: flex-end);

@@ -385,6 +385,9 @@ h6 {
 
 .hero__section {
   background: url("https://images01.nicepagecdn.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg") no-repeat;
+  -webkit-clip-path: polygon(0 0, 37% 0, 77% 100%, 0 100%);
+          clip-path: polygon(0 0, 37% 0, 77% 100%, 0 100%);
+  background-color: #332929;
   background-size: cover;
 }
 .hero__section div.container {
@@ -602,6 +605,40 @@ section.review div.container div.row div.col-6 p.username {
 }
 
 section.photo__section div.container div.row div.col-6 img {
+  width: 100%;
+  height: 100%;
+}
+
+section.contact__section {
+  background-color: #332929;
+  margin: 3rem 0rem;
+  padding: 3rem 0rem;
+}
+section.contact__section div.container div.row div.col-4 iframe {
+  width: 100%;
+  height: 100%;
+}
+section.contact__section div.container div.row div.col-5 div.contact__bg h2 {
+  padding: 0rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: start;
+  color: #ffffff;
+}
+section.contact__section div.container div.row div.col-5 div.contact__bg h3 {
+  padding: 0rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: start;
+  color: #ffffff;
+}
+section.contact__section div.container div.row div.col-5 div.contact__bg a, section.contact__section div.container div.row div.col-5 div.contact__bg p {
+  padding: 0rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #ffffff;
+}
+section.contact__section div.container div.row div.col-3 img {
   width: 100%;
   height: 100%;
 }
