@@ -1,0 +1,46 @@
+section.review{
+    div.container{
+        div.row{
+            div.col-9{
+                h2{
+                    text-align: end;
+                    font-family: $heading-font;
+                    font-weight: 400;
+                    color: $dark-text;
+                }
+                p{
+                    font-family: $p-font;
+                    line-height: 160%;
+                    color: $dark-text;
+                    text-align: end;
+                }
+            }
+            div.col-6{
+                    div.review__profile--photo{
+                        margin: 3rem 0rem;
+                        @include DisplayPosition( $flex-direction: column, $justify-content: center, $align-items: center);
+                        img{
+                            width: 10rem;
+                            height:10rem;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                    }
+                
+                p{
+                    font-family: $p-font;
+                    line-height: 160%;
+                    color: $dark-text;
+                    text-align: center;
+                }
+                p.username{
+                    font-weight: 700;
+                    font-family: $p-font;
+                    line-height: 160%;
+                    color: $dark-text;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

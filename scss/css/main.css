@@ -557,3 +557,89 @@ section.what__you--want div.container div.row div.col-8 div.col-3 button a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
+
+section.review div.container div.row div.col-9 h2 {
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+section.review div.container div.row div.col-9 p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: end;
+}
+section.review div.container div.row div.col-6 div.review__profile--photo {
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+}
+section.review div.container div.row div.col-6 div.review__profile--photo img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.review div.container div.row div.col-6 p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: center;
+}
+section.review div.container div.row div.col-6 p.username {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: center;
+}
+
+section.review div.container div.row div.col-9 h2 {
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+section.review div.container div.row div.col-9 p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: end;
+}
+section.review div.container div.row div.col-6 div.review__profile--photo {
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  align-self: normal;
+  flex-wrap: normal;
+}
+section.review div.container div.row div.col-6 div.review__profile--photo img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.review div.container div.row div.col-6 p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: center;
+}
+section.review div.container div.row div.col-6 p.username {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  line-height: 160%;
+  color: #000000;
+  text-align: center;
+}
